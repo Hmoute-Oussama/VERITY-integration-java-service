@@ -1,0 +1,7 @@
+.verity/verity.db
+.verity/verity.db-wal
+.verity/verity.db-shm
+.venv/
+node_modules/
+__pycache__/
+

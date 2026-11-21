@@ -1,0 +1,8 @@
+version: 1
+task: java_service
+contracts:
+  - id: service
+    claim: Java service source exists.
+    verifier: file_exists
+    args: {paths: ["src/main/java/com/example/Service.java"]}
+    required: true
